@@ -5,17 +5,20 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "remix build",
+    "start": "remix dev",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@remix-run/dev": "^2.14.0",
+    "@remix-run/node": "^2.14.0",
+    "@remix-run/react": "^2.14.0",
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-intersection-observer": "^9.8.1",
-    "react-router-dom": "^6.22.3",
-    "@remix-run/dev": "latest"
+    "react-router-dom": "^6.22.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",
@@ -31,6 +34,6 @@
     "tailwindcss": "^3.4.1",
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.3.0",
-    "vite": "^5.4.2"
+    "vite": "^5.4.11"
   }
 }
